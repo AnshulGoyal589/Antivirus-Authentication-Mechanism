@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <style>
+        body {
+            width: 500px;
+        }
+
+        #list {
+            /* border: 2px solid black; */
+        }
+
+        #list>li {
+            background-color: #edede9;
+            list-style: none;
+            border-top: 3px solid black;
+            margin-left: -25px;
+            font-size: 21px;
+            padding: 12px;
+        }
+
+        #list select {
+            margin-left: -25px;
+            background-color: #edede9;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>Hello Admin!</div> 
+    <div id="allInfo" ></div> 
+    <ul id="list"></ul>
+    <form id="keyGenForm">
+        <label for="keyViaPhone">Generate License Key</label>
+        <input type="text" id="keyViaPhone" name="keyViaPhone">
+        <button type="submit">Generate</button>
+    </form>
+    <script src="adminPanel.js"></script>
+</body>
+</html>

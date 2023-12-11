@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "License Authentication",
+    "version": "1.0",
+    "description": "Check the expiry time of your Antivirus!",
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
+  
